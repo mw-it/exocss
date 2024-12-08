@@ -1,3 +1,5 @@
+<img src="img/logo.svg">
+
 # EXOcss (beta)
 <p>flexible. lightweight. responsive.</p>
 <p>EXOcss is a skeleton for creating responsive websites or web apps ultra fast.</p>
