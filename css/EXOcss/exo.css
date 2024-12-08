@@ -1,0 +1,394 @@
+/**
+ * EXOcss core file (beta)
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss
+ */
+
+/* WIDTH */
+.widthFull
+{
+    box-sizing: border-box;
+    min-width: 100%;
+}
+
+.widthFullMax
+{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* FLOAT */
+.floatRight
+{
+    float: right;
+}
+
+.floatLeft
+{
+    float: left;
+}
+
+.row:after,
+.clearfix
+{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* HIDE */
+.hide
+{
+    display: none;
+}
+
+.hideMobile
+{
+    display: none;
+}
+
+.hideOthers
+{
+    display: inline-block;
+}
+
+/* COL & ROW */
+.col
+{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+.colr
+{
+    box-sizing: border-box;
+    float: right;
+    width: 100%;
+}
+
+.row
+{
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+/* GRID LAYOUT */
+@media (min-width: 550px)
+{
+
+    /* HIDE */
+    .hideOthers
+    {
+        display: none;
+    }
+
+    .hideMobile
+    {
+        display: inline-block;
+    }
+
+    /* COL & ROW */
+    .col5
+    {
+        max-width: 5%;
+    }
+
+    .col10
+    {
+        max-width: 10%;
+    }
+
+    .col15
+    {
+        max-width: 15%;
+    }
+
+    .col20
+    {
+        max-width: 20%;
+    }
+
+    .col25
+    {
+        max-width: 25%;
+    }
+
+    .col30
+    {
+        max-width: 30%;
+    }
+
+    .col35
+    {
+        max-width: 35%;
+    }
+
+    .col40
+    {
+        max-width: 40%;
+    }
+
+    .col45
+    {
+        max-width: 45%;
+    }
+
+    .col50
+    {
+        max-width: 50%;
+    }
+
+    .col55
+    {
+        max-width: 55%;
+    }
+
+    .col60
+    {
+        max-width: 60%;
+    }
+
+    .col65
+    {
+        max-width: 65%;
+    }
+
+    .col70
+    {
+        max-width: 70%;
+    }
+
+    .col75
+    {
+        max-width: 75%;
+    }
+
+    .col80
+    {
+        max-width: 80%;
+    }
+
+    .col85
+    {
+        max-width: 85%;
+    }
+
+    .col90
+    {
+        max-width: 90%;
+    }
+
+    .col95
+    {
+        max-width: 95%;
+    }
+
+    .col100
+    {
+        max-width: 100%;
+    }
+
+    /* OFFSET LEFT */
+    .offsetLeft5
+    {
+        margin-left: 5%;
+    }
+
+    .offsetLeft10
+    {
+        margin-left: 10%;
+    }
+
+    .offsetLeft15
+    {
+        margin-left: 15%;
+    }
+
+    .offsetLeft20
+    {
+        margin-left: 20%;
+    }
+
+    .offsetLeft25
+    {
+        margin-left: 25%;
+    }
+
+    .offsetLeft30
+    {
+        margin-left: 30%;
+    }
+
+    .offsetLeft35
+    {
+        margin-left: 35%;
+    }
+
+
+    .offsetLeft40
+    {
+        margin-left: 40%;
+    }
+
+    .offsetLeft45
+    {
+        margin-left: 45%;
+    }
+
+    .offsetLeft50
+    {
+        margin-left: 50%;
+    }
+
+    .offsetLeft55
+    {
+        margin-left: 55%;
+    }
+
+    .offsetLeft60
+    {
+        margin-left: 60%;
+    }
+
+    .offsetLeft65
+    {
+        margin-left: 65%;
+    }
+
+    .offsetLeft70
+    {
+        margin-left: 70%;
+    }
+
+    .offsetLeft75
+    {
+        margin-left: 75%;
+    }
+
+    .offsetLeft80
+    {
+        margin-left: 80%;
+    }
+
+    .offsetLeft85
+    {
+        margin-left: 85%;
+    }
+
+    .offsetLeft90
+    {
+        margin-left: 90%;
+    }
+
+    .offsetLeft95
+    {
+        margin-left: 95%;
+    }
+
+    /* OFFSET RIGHT */
+    .offsetRight5
+    {
+        margin-right: 5%;
+    }
+
+    .offsetRight10
+    {
+        margin-right: 10%;
+    }
+
+    .offsetRight15
+    {
+        margin-right: 15%;
+    }
+
+    .offsetRight20
+    {
+        margin-right: 20%;
+    }
+
+    .offsetRight25
+    {
+        margin-right: 25%;
+    }
+
+    .offsetRight30
+    {
+        margin-right: 30%;
+    }
+
+    .offsetRight35
+    {
+        margin-right: 35%;
+    }
+
+    .offsetRight40
+    {
+        margin-right: 40%;
+    }
+
+    .offsetRight45
+    {
+        margin-right: 45%;
+    }
+
+    .offsetRight50
+    {
+        margin-right: 50%;
+    }
+
+    .offsetRight55
+    {
+        margin-right: 55%;
+    }
+
+    .offsetRight60
+    {
+        margin-right: 60%;
+    }
+
+    .offsetRight65
+    {
+        margin-right: 65%;
+    }
+
+    .offsetRight70
+    {
+        margin-right: 70%;
+    }
+
+    .offsetRight75
+    {
+        margin-right: 75%;
+    }
+
+    .offsetRight80
+    {
+        margin-right: 80%;
+    }
+
+    .offsetRight85
+    {
+        margin-right: 85%;
+    }
+
+    .offsetRight90
+    {
+        margin-right: 90%;
+    }
+
+    .offsetRight95
+    {
+        margin-right: 95%;
+    }
+}
