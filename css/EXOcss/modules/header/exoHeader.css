@@ -1,0 +1,18 @@
+/**
+ * EXOcss header styles
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss/header
+ */
+header
+{
+    background-color: lightgray;
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}

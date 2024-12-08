@@ -1,0 +1,23 @@
+/**
+ * EXOcss basic styles
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss/base
+ */
+html
+{
+    font-size: 10px;
+}
+
+body
+{
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+}

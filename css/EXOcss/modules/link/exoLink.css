@@ -1,0 +1,29 @@
+/**
+ * EXOcss styles for links
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss/link
+ */
+a
+{
+    color: #666;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: #999;
+}
+
+a:active
+{
+    color: #999;
+}

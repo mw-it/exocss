@@ -1,0 +1,46 @@
+/**
+ * EXOcss typography styles
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss/typography
+ */
+body
+{
+    color: #333333;
+    font-family: -apple-system, "BlinkMacSystemFont", "Avenir", "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+p
+{
+    margin: 0.5rem 0;
+}
+
+.textCenter
+{
+    text-align: center;
+}
+
+.textRight
+{
+    text-align: right;
+}
+
+.titleMain
+{
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+.titleSub
+{
+    font-size: 2.5rem;
+    font-style: italic;
+}
