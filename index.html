@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EXOcss (beta)</title>
+    <!-- EXOcss NORMALIZE -->
+    <link href="css/otherCSS/normalize.min.css" rel="stylesheet">
+    <!-- EXOcss CORE -->
+    <link href="css/EXOcss/exo.css" rel="stylesheet">
+    <!-- EXOcss MODULES -->
+    <link href="css/EXOcss/modules/base/exoBase.css" rel="stylesheet">
+    <link href="css/EXOcss/modules/header/exoHeader.css" rel="stylesheet">
+    <link href="css/EXOcss/modules/heading/exoHeading.css" rel="stylesheet">
+    <link href="css/EXOcss/modules/horizontalLine/exoHorizontalLine.css" rel="stylesheet">
+    <link href="css/EXOcss/modules/typography/exoTypography.css" rel="stylesheet">
+    <!-- CUSTOM STYLES -->
+    <link href="css/EXOcss/custom.css" rel="stylesheet">
+</head>
+<style>
+    .bg1 {
+        background-color: #aaa;
+    }
+
+    .bg2 {
+        background-color: #bbb;
+    }
+
+    .bg3 {
+        background-color: #ccc;
+    }
+</style>
+
+<body>
+
+    <header class="row textCenter">
+        <div class="col">
+            <h1 class="textCenter">EXO<span style="color: gray;font-style: italic;font-size: 0.75em;">css (beta)</span>
+            </h1>
+            <p style="font-style: italic;padding-bottom: 0.5em;">flexible. lightweight. responsive.</p>
+            <p>EXOcss is a skeleton for creating responsive websites or web apps ultra fast.</p>
+            </p>
+        </div>
+    </header>
+
+    <div class="row textCenter">
+        <div class="col">
+            <p class="titleMain">STYLE GUIDE</p>
+            <p style="font-weight: bold;">the style guide is the best way to show examples of EXOcss</p>
+            <p style="font-size: smaller;">(notice: this page is constantly being updated and expanded, more to come.)
+        </div>
+    </div>
+
+    <p class="titleSub">Heading</p>
+    <hr>
+    <div class="row textCenter">
+        <div class="col">
+            <h1>EXOcss H1</h1>
+            <h2>EXOcss H2</h2>
+            <h3>EXOcss H3</h3>
+            <h4>EXOcss H4</h4>
+            <h5>EXOcss H5</h5>
+            <h6>EXOcss H6</h6>
+        </div>
+    </div>
+
+
+    <p class="titleSub">Typography</p>
+    <hr>
+    <div class="row textCenter">
+        <div class="col">
+            <p>Paragraph</p>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+    </div>
+
+    <p class="titleSub">COLS & ROWS</p>
+    <hr>
+    <p>1 COLUMN</p>
+    <div class="row textCenter">
+        <div class="col bg1">1. COLUMN: .col</div>
+    </div>
+    <hr>
+    <p>2 COLUMNS</p>
+    <div class="row textCenter">
+        <div class="col col50 bg1">1. COLUMN: .col .col50</div>
+        <div class="col col50 bg2">2. COLUMN: .col .col50</div>
+    </div>
+    <hr>
+    <p>3 COLUMNS</p>
+    <div class="row textCenter">
+        <div class="col col30 bg1">1. COLUMN: .col .col30</div>
+        <div class="col offsetLeft5 col30 offsetRight5 bg2 ">2. COLUMN: .col .offsetLeft5 .col30 .offsetRight5</div>
+        <div class="col col30 bg3">3. COLUMN: col col30</div>
+    </div>
+
+    <div class="hide">
+        <p class="titleSub">MODULE</p>
+        <hr>
+        <div class="row textCenter">
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
