@@ -10,3 +10,18 @@
  *
  * @package EXOcss
  */
+
+.bg1
+{
+    background-color: #aaa;
+}
+
+.bg2
+{
+    background-color: #bbb;
+}
+
+.bg3
+{
+    background-color: #ccc;
+}

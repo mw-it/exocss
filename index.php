@@ -3,47 +3,68 @@
 
 <head>
     <title>EXOcss (beta)</title>
+
+    <!-- META -->
+    <meta name="creator" content="Walid Moussa (MW)">
+    <meta name="author" content="Walid Moussa (MW)">
+    <meta name="publisher" content="Walid Moussa (MW)">
+    <meta name="copyright" content="Walid Moussa (MW)">
+    <meta name="abstract"
+        content="EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating. flexible. lightweight. responsive.">
+    <meta charset="utf-8">
+    <meta name="language" content="Deutsch">
+    <meta name="charset" content="utf-8">
+    <meta name="description"
+        content="EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating. flexible. lightweight. responsive.">
+    <meta name="keywords" content="EXOcss,css,framework,library,modules,flexbox,floating,responsive">
+    <meta name="application-name" content="EXOcss">
+    <meta name="generator" content="MWAPP">
+    <meta name="reply-to" content="">
+    <meta name="geo.placename" content="Castrop-Rauxel, Nordrhein-Westfalen, Germany">
+    <meta name="geo.region" content="DE-NW">
+    <meta name="resource-type" content="document">
+    <meta name="revisit-after" content="7 days">
+    <meta name="robots" content="index;follow">
+    <meta name="expires" content="0">
+    <meta name="googlebot" content="noarchive">
+    <meta name="googlebot" content="code">
+    <meta name="googlebot" content="noodp">
+    <link rel="author" href="humans.txt">
+
+    <!-- MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- EXOcss NORMALIZE -->
     <link href="css/otherCSS/normalize.min.css" rel="stylesheet">
+
     <!-- EXOcss CORE -->
     <link href="css/EXOcss/exo.css" rel="stylesheet">
+
     <!-- EXOcss MODULES -->
     <link href="css/EXOcss/modules/base/exoBase.css" rel="stylesheet">
     <link href="css/EXOcss/modules/header/exoHeader.css" rel="stylesheet">
     <link href="css/EXOcss/modules/heading/exoHeading.css" rel="stylesheet">
     <link href="css/EXOcss/modules/horizontalLine/exoHorizontalLine.css" rel="stylesheet">
     <link href="css/EXOcss/modules/typography/exoTypography.css" rel="stylesheet">
-    <!-- CUSTOM STYLES -->
+
+    <!-- EXOcss CUSTOM STYLES -->
     <link href="css/EXOcss/custom.css" rel="stylesheet">
 </head>
-<style>
-    .bg1 {
-        background-color: #aaa;
-    }
-
-    .bg2 {
-        background-color: #bbb;
-    }
-
-    .bg3 {
-        background-color: #ccc;
-    }
-</style>
 
 <body>
 
     <header class="row textCenter">
-        <div class="col">
+        <div class="col col100">
             <h1 class="textCenter">EXO<span style="color: gray;font-style: italic;font-size: 0.75em;">css (beta)</span>
             </h1>
             <p style="font-style: italic;padding-bottom: 0.5em;">flexible. lightweight. responsive.</p>
-            <p>EXOcss is a skeleton for creating responsive websites or web apps ultra fast.</p>
-            </p>
+            <p>EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or
+                floating.</p>
         </div>
     </header>
 
     <div class="row textCenter">
-        <div class="col">
+        <div class="col col100">
             <p class="titleMain">STYLE GUIDE</p>
             <p style="font-weight: bold;">the style guide is the best way to show examples of EXOcss</p>
             <p style="font-size: smaller;">(notice: this page is constantly being updated and expanded, more to come.)
@@ -53,7 +74,7 @@
     <p class="titleSub">Heading</p>
     <hr>
     <div class="row textCenter">
-        <div class="col">
+        <div class="col col100">
             <h1>EXOcss H1</h1>
             <h2>EXOcss H2</h2>
             <h3>EXOcss H3</h3>
@@ -72,16 +93,11 @@
         </div>
     </div>
 
-
-
-    <div class="row">
-    </div>
-
     <p class="titleSub">COLS & ROWS</p>
     <hr>
-    <p>1 COLUMN</p>
     <div class="row textCenter">
-        <div class="col bg1">1. COLUMN: .col</div>
+        <p>1 COLUMN</p>
+        <div class="col col100 bg1">1. COLUMN: .col</div>
     </div>
     <hr>
     <p>2 COLUMNS</p>
@@ -93,7 +109,7 @@
     <p>3 COLUMNS</p>
     <div class="row textCenter">
         <div class="col col30 bg1">1. COLUMN: .col .col30</div>
-        <div class="col offsetLeft5 col30 offsetRight5 bg2 ">2. COLUMN: .col .offsetLeft5 .col30 .offsetRight5</div>
+        <div class="col col30 offsetLeft5 offsetRight5 bg2 ">2. COLUMN: .col .offsetLeft5 .col30 .offsetRight5</div>
         <div class="col col30 bg3">3. COLUMN: col col30</div>
     </div>
 
