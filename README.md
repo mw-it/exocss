@@ -3,6 +3,13 @@
 # EXOcss (beta)
 <p>flexible. lightweight. responsive.</p>
 <p>EXOcss is a skeleton for creating responsive websites or web apps ultra fast.</p>
+<p>EXOcss is very flexible and it provides a lot of different grid layouts (column system):</p>
+
++ 1 column system
++ 2 column system
++ 3 column system
++ 5 column system
++ 5 percent steps column system
 
 ## why use EXOcss?
 + 💪🏼 ultra lightweight ( !!! exo.css is LESS THAN 5kb not minified + unzipped !!! )
@@ -83,31 +90,31 @@ the style guide is the best way to show examples of EXOcss: [styleguide](index.h
             + [  ] responsive
             + [  ] full height
         + [ + ] column
-            + [ + ] 1 column system
+            + [  ] 1 column system
                 + [  ] basic
                 + [  ] offset left side
                 + [  ] offset right side
                 + [  ] offset both sides
                 + [ + ] responsive
-            + [ + ] 2 column system
+            + [  ] 2 column system
                 + [  ] basic
                 + [  ] offset left side
                 + [  ] offset right side
                 + [  ] offset both sides
                 + [ + ] responsive
-            + [ + ] 3 column system
+            + [  ] 3 column system
                 + [  ] basic
                 + [  ] offset left side
                 + [  ] offset right side
                 + [  ] offset both sides
                 + [ + ] responsive
-            + [ + ] 5 column system
+            + [  ] 5 column system
                 + [  ] basic
                 + [  ] offset left side
                 + [  ] offset right side
                 + [  ] offset both sides
                 + [ + ] responsive
-            + [ + ] 5 percent system
+            + [ + ] 5 percent steps column system
                 + [ + ] basic
                 + [ + ] offset left side
                 + [ + ] offset right side
