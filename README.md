@@ -279,6 +279,7 @@ the style guide is the best way to show examples of EXOcss: [styleguide](index.h
 
 ## find + follow + support
 + web: https://exocss.org
++ mail: mail@exocss.org
 + github: https://github.com/mw-it/exocss
 + donation: https://donate.stripe.com/3cs5lCaYMfFRa0EaEE
 
