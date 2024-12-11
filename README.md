@@ -2,7 +2,7 @@
 
 # EXOcss (beta)
 <p>flexible. lightweight. responsive.</p>
-<p>EXOcss is a skeleton for creating responsive websites or web apps ultra fast.</p>
+<p>EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating.</p>
 <p>EXOcss is very flexible and it provides a lot of different grid layouts (column system):</p>
 
 + 1 column system
