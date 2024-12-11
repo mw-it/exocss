@@ -78,13 +78,41 @@ the style guide is the best way to show examples of EXOcss: [styleguide](index.h
         + [ + ] row
             + [ + ] basic
             + [ + ] responsive
+        + [  ] container
+            + [  ] basic
+            + [  ] responsive
             + [  ] full height
         + [ + ] column
-            + [ + ] basic
-            + [ + ] offset left side
-            + [ + ] offset right side
-            + [ + ] offset both sides
-            + [ + ] responsive
+            + [ + ] 1 column system
+                + [  ] basic
+                + [  ] offset left side
+                + [  ] offset right side
+                + [  ] offset both sides
+                + [ + ] responsive
+            + [ + ] 2 column system
+                + [  ] basic
+                + [  ] offset left side
+                + [  ] offset right side
+                + [  ] offset both sides
+                + [ + ] responsive
+            + [ + ] 3 column system
+                + [  ] basic
+                + [  ] offset left side
+                + [  ] offset right side
+                + [  ] offset both sides
+                + [ + ] responsive
+            + [ + ] 5 column system
+                + [  ] basic
+                + [  ] offset left side
+                + [  ] offset right side
+                + [  ] offset both sides
+                + [ + ] responsive
+            + [ + ] 5 percent system
+                + [ + ] basic
+                + [ + ] offset left side
+                + [ + ] offset right side
+                + [ + ] offset both sides
+                + [ + ] responsive
         + [  ] hide element
             + [ + ] hide generally
             + [ + ] hide on mobile device
