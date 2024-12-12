@@ -10,27 +10,18 @@
  *
  * @package EXOcss/typography
  */
+
 body
 {
     color: #333333;
     font-family: -apple-system, "BlinkMacSystemFont", "Avenir", "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 10px;
     line-height: 1.5;
 }
 
 p
 {
     margin: 0.5rem 0;
-}
-
-.textCenter
-{
-    text-align: center;
-}
-
-.textRight
-{
-    text-align: right;
 }
 
 .titleMain
@@ -43,4 +34,49 @@ p
 {
     font-size: 2.5rem;
     font-style: italic;
+}
+
+.exoTextAlignLeft
+{
+    text-align: left;
+}
+
+.exoTextAlignRight
+{
+    text-align: right;
+}
+
+.exoTextCenter
+{
+    text-align: center;
+}
+
+.exoTextCursive
+{
+    font-family: cursive;
+}
+
+.exoTextMonospace
+{
+    font-family: monospace;
+}
+
+.exoTextJustify
+{
+    text-align: justify;
+}
+
+.exoTextSansSerif
+{
+    font-family: sans-serif;
+}
+
+.exoTextSerif
+{
+    font-family: serif;
+}
+
+.exoTextWide
+{
+    letter-spacing: 0.5em;
 }
