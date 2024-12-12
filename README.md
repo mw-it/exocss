@@ -1,5 +1,7 @@
 <img src="img/logo.svg">
 
+**IMPORTANT:** this repository is currently being actively developed. significant changes to the structure and files are possible. backward compatibility cannot be guaranteed at this time.
+
 # EXOcss (beta)
 <p>flexible. lightweight. responsive.</p>
 <p>EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating.</p>
