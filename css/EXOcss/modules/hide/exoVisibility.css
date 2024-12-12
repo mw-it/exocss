@@ -1,0 +1,42 @@
+/**
+ * EXOcss typography styles
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss/typography
+ */
+
+.exoHide
+{
+    visibility: hidden;
+}
+
+.exoHideMobile
+{
+    visibility: hidden;
+}
+
+.exoHideOthers
+{
+    visibility: visible;
+}
+
+.exoRemove
+{
+    display: none;
+}
+
+.exoRemoveMobile
+{
+    display: none;
+}
+
+.exoRemoveOthers
+{
+    display: table;
+}
