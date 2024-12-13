@@ -10,14 +10,14 @@
  *
  * @package EXOcss/base
  */
-html
+
+img
 {
-    font-size: 10px;
+    vertical-align: middle;
 }
 
-body
+.exoImage
 {
-    margin: 0;
-    overflow-x: hidden;
-    padding: 0;
+    max-width: 100%;
+    height: auto;
 }

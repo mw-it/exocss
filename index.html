@@ -9,11 +9,13 @@
     <meta name="author" content="Walid Moussa (MW)">
     <meta name="publisher" content="Walid Moussa (MW)">
     <meta name="copyright" content="Walid Moussa (MW)">
-    <meta name="abstract" content="EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating. flexible. lightweight. responsive.">
+    <meta name="abstract"
+        content="EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating. flexible. lightweight. responsive.">
     <meta charset="utf-8">
     <meta name="language" content="Deutsch">
     <meta name="charset" content="utf-8">
-    <meta name="description" content="EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating. flexible. lightweight. responsive.">
+    <meta name="description"
+        content="EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating. flexible. lightweight. responsive.">
     <meta name="keywords" content="EXOcss,css,framework,library,modules,flexbox,floating,responsive">
     <meta name="application-name" content="EXOcss">
     <meta name="generator" content="MWAPP">
@@ -36,10 +38,10 @@
     <link href="css/otherCSS/normalize.min.css" rel="stylesheet">
 
     <!-- EXOcss CORE -->
-    <link href="css/EXOcss/exo.css" rel="stylesheet">
+    <link href="css/EXOcss/modules/base/exo.css" rel="stylesheet">
 
     <!-- EXOcss MODULES -->
-    <link href="css/EXOcss/modules/base/exoBase.css" rel="stylesheet">
+    <link href="css/EXOcss/modules/base/exoFloatPercent.css" rel="stylesheet">
     <link href="css/EXOcss/modules/header/exoHeader.css" rel="stylesheet">
     <link href="css/EXOcss/modules/heading/exoHeading.css" rel="stylesheet">
     <link href="css/EXOcss/modules/horizontalLine/exoHorizontalLine.css" rel="stylesheet">
@@ -51,17 +53,19 @@
 
 <body>
 
-    <header class="row textCenter">
-        <div class="col col100">
-            <h1 class="textCenter">EXO<span style="color: gray;font-style: italic;font-size: 0.75em;">css (beta)</span>
+    <header class="exoRow exoTextCenter">
+        <div class="exoCol exoCol100">
+            <h1 class="exoTextCenter">EXO<span style="color: gray;font-style: italic;font-size: 0.75em;">css
+                    (beta)</span>
             </h1>
             <p style="font-style: italic;padding-bottom: 0.5em;">flexible. lightweight. responsive.</p>
-            <p>EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or floating.</p>
+            <p>EXOcss is a css skeleton for creating responsive websites or web apps ultra fast with flexbox or
+                floating.</p>
         </div>
     </header>
 
-    <div class="row textCenter">
-        <div class="col col100">
+    <div class="exoRow exoTextCenter">
+        <div class="exoCol col100">
             <p class="titleMain">STYLE GUIDE</p>
             <p style="font-weight: bold;">the style guide is the best way to show examples of EXOcss</p>
             <p style="font-size: smaller;">(notice: this page is constantly being updated and expanded, more to come.)
@@ -70,8 +74,8 @@
 
     <p class="titleSub">Heading</p>
     <hr>
-    <div class="row textCenter">
-        <div class="col col100">
+    <div class="row exoTextCenter">
+        <div class="exoCol col100">
             <h1>EXOcss H1</h1>
             <h2>EXOcss H2</h2>
             <h3>EXOcss H3</h3>
@@ -84,37 +88,39 @@
 
     <p class="titleSub">Typography</p>
     <hr>
-    <div class="row textCenter">
-        <div class="col">
+    <div class="exoRow exoTextCenter">
+        <div class="exoCol">
             <p>Paragraph</p>
         </div>
     </div>
 
     <p class="titleSub">COLS & ROWS</p>
     <hr>
-    <div class="row textCenter">
+    <div class="exoRow exoTextCenter">
         <p>1 COLUMN</p>
-        <div class="col col100 bg1">1. COLUMN: .col</div>
+        <div class="exoCol col100 bg1">1. COLUMN: .exoCol</div>
     </div>
     <hr>
     <p>2 COLUMNS</p>
-    <div class="row textCenter">
-        <div class="col col50 bg1">1. COLUMN: .col .col50</div>
-        <div class="col col50 bg2">2. COLUMN: .col .col50</div>
+    <div class="exoRow exoTextCenter">
+        <div class="exoCol col50 bg1">1. COLUMN: .exoCol .exoCol50</div>
+        <div class="exoCol col50 bg2">2. COLUMN: .exoCol .exoCol50</div>
     </div>
     <hr>
     <p>3 COLUMNS</p>
-    <div class="row textCenter">
-        <div class="col col30 bg1">1. COLUMN: .col .col30</div>
-        <div class="col col30 offsetLeft5 offsetRight5 bg2 ">2. COLUMN: .col .offsetLeft5 .col30 .offsetRight5</div>
-        <div class="col col30 bg3">3. COLUMN: col col30</div>
+    <div class="exoRow exoTextCenter">
+        <div class="exoCol exoCol30 bg1">1. COLUMN: .exoCol .exoCol30</div>
+        <div class="exoCol exoCol30 offsetLeft5 offsetRight5 bg2 ">2. COLUMN: .exoCol .offsetLeft5 .exoCol30
+            .offsetRight5
+        </div>
+        <div class="exoCol exoCol30 bg3">3. COLUMN: .exoCol .exoCol30</div>
     </div>
 
     <div class="hide">
         <p class="titleSub">MODULE</p>
         <hr>
-        <div class="row textCenter">
-            <div class="col">
+        <div class="row exoTextCenter">
+            <div class="exoCol">
             </div>
         </div>
     </div>

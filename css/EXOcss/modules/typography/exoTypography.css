@@ -24,18 +24,6 @@ p
     margin: 0.5rem 0;
 }
 
-.titleMain
-{
-    font-size: 5rem;
-    text-decoration: underline;
-}
-
-.titleSub
-{
-    font-size: 2.5rem;
-    font-style: italic;
-}
-
 .exoTextAlignLeft
 {
     text-align: left;

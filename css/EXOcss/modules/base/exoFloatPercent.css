@@ -1,5 +1,5 @@
 /**
- * EXOcss core file (beta)
+ * EXOcss basic styles
  *
  * @author Walid Moussa https://walid-moussa.de
  * @copyright (c) Walid Moussa https://walid-moussa.de
@@ -8,414 +8,311 @@
  * @link https://exocss.org
  * @link https://github.com/mw-it/exocss Github
  *
- * @package EXOcss
+ * @package EXOcss/base
  */
 
-*
+@media (min-width: 601px)
 {
-    box-sizing: border-box;
-}
-
-@media screen and (prefers-reduced-motion:reduce)
-{
-    *
-    {
-        animation-duration: 0.001ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.001ms !important;
-    }
-}
-
-/* WIDTH */
-.widthFull
-{
-    width: 100%;
-}
-
-.widthFullMax
-{
-    max-width: 100%;
-}
-
-/* FLOAT */
-.floatRight
-{
-    float: right;
-}
-
-.floatLeft
-{
-    float: left;
-}
-
-.row:after,
-.clearfix
-{
-    clear: both;
-    content: "";
-    display: table;
-}
-
-/* HIDE */
-.hide
-{
-    display: none;
-}
-
-.hideMobile
-{
-    display: none;
-}
-
-.hideOthers
-{
-    display: table;
-}
-
-/* COL & ROW */
-.col
-{
-    float: left;
-    width: 100%;
-}
-
-.colr
-{
-    float: right;
-    width: 100%;
-}
-
-.row
-{
-    margin: 0 auto;
-    max-width: 100%;
-    /* padding: 0; */
-    padding: 0 1rem;
-    position: relative;
-    width: 100%;
-}
-
-/* GRID LAYOUT */
-@media (min-width: 550px)
-{
-
-    /* HIDE */
-    .hideOthers
-    {
-        display: none;
-    }
-
-    .hideMobile
-    {
-        display: table;
-    }
-
-    /* COL & ROW */
-    /* .row
-     {
-         width: 80%;
-     } */
-
-    .col:first-child
+    .exoCol:first-child
     {
         margin-left: 0;
     }
 
-    .colr:first-child
+    .exoColr:first-child
     {
         margin-right: 0;
     }
 
-    .col.col5
+    .exoCol.exoCol5
     {
         width: 5%;
     }
 
-    .col.col10
+    .exoCol.exoCol10
     {
         width: 10%;
     }
 
-    .col.col15
+    .exoCol.exoCol15
     {
         width: 15%;
     }
 
-    .col.col20
+    .exoCol.exoCol20
     {
         width: 20%;
     }
 
-    .col.col25
+    .exoCol.exoCol25
     {
         width: 25%;
     }
 
-    .col.col30
+    .exoCol.exoCol30
     {
         width: 30%;
     }
 
-    .col.col35
+    .exoCol.exoCol35
     {
         width: 35%;
     }
 
-    .col.col40
+    .exoCol.exoCol40
     {
         width: 40%;
     }
 
-    .col.col45
+    .exoCol.exoCol45
     {
         width: 45%;
     }
 
-    .col.col50
+    .exoCol.exoCol50
     {
         width: 50%;
     }
 
-    .col.col55
+    .exoCol.exoCol55
     {
         width: 55%;
     }
 
-    .col.col60
+    .exoCol.exoCol60
     {
         width: 60%;
     }
 
-    .col.col65
+    .exoCol.exoCol65
     {
         width: 65%;
     }
 
-    .col.col70
+    .exoCol.exoCol70
     {
         width: 70%;
     }
 
-    .col.col75
+    .exoCol.exoCol75
     {
         width: 75%;
     }
 
-    .col.col80
+    .exoCol.exoCol80
     {
         width: 80%;
     }
 
-    .col.col85
+    .exoCol.exoCol85
     {
         width: 85%;
     }
 
-    .col.col90
+    .exoCol.exoCol90
     {
         width: 90%;
     }
 
-    .col.col95
+    .exoCol.exoCol95
     {
         width: 95%;
     }
 
-    .col.col100
+    .exoCol.exoCol100
     {
         width: 100%;
         margin-left: 0;
     }
 
     /* OFFSET LEFT */
-    .col.offsetLeft5
+    .exoCol.offsetLeft5
     {
         margin-left: 5%;
     }
 
-    .col.offsetLeft10
+    .exoCol.offsetLeft10
     {
         margin-left: 10%;
     }
 
-    .col.offsetLeft15
+    .exoCol.offsetLeft15
     {
         margin-left: 15%;
     }
 
-    .col.offsetLeft20
+    .exoCol.offsetLeft20
     {
         margin-left: 20%;
     }
 
-    .col.offsetLeft25
+    .exoCol.offsetLeft25
     {
         margin-left: 25%;
     }
 
-    .col.offsetLeft30
+    .exoCol.offsetLeft30
     {
         margin-left: 30%;
     }
 
-    .col.offsetLeft35
+    .exoCol.offsetLeft35
     {
         margin-left: 35%;
     }
 
 
-    .col.offsetLeft40
+    .exoCol.offsetLeft40
     {
         margin-left: 40%;
     }
 
-    .col.offsetLeft45
+    .exoCol.offsetLeft45
     {
         margin-left: 45%;
     }
 
-    .col.offsetLeft50
+    .exoCol.offsetLeft50
     {
         margin-left: 50%;
     }
 
-    .col.offsetLeft55
+    .exoCol.offsetLeft55
     {
         margin-left: 55%;
     }
 
-    .col.offsetLeft60
+    .exoCol.offsetLeft60
     {
         margin-left: 60%;
     }
 
-    .col.offsetLeft65
+    .exoCol.offsetLeft65
     {
         margin-left: 65%;
     }
 
-    .col.offsetLeft70
+    .exoCol.offsetLeft70
     {
         margin-left: 70%;
     }
 
-    .col.offsetLeft75
+    .exoCol.offsetLeft75
     {
         margin-left: 75%;
     }
 
-    .col.offsetLeft80
+    .exoCol.offsetLeft80
     {
         margin-left: 80%;
     }
 
-    .col.offsetLeft85
+    .exoCol.offsetLeft85
     {
         margin-left: 85%;
     }
 
-    .col.offsetLeft90
+    .exoCol.offsetLeft90
     {
         margin-left: 90%;
     }
 
-    .col.offsetLeft95
+    .exoCol.offsetLeft95
     {
         margin-left: 95%;
     }
 
     /* OFFSET RIGHT */
-    .col.offsetRight5
+    .exoCol.offsetRight5
     {
         margin-right: 5%;
     }
 
-    .col.offsetRight10
+    .exoCol.offsetRight10
     {
         margin-right: 10%;
     }
 
-    .col.offsetRight15
+    .exoCol.offsetRight15
     {
         margin-right: 15%;
     }
 
-    .col.offsetRight20
+    .exoCol.offsetRight20
     {
         margin-right: 20%;
     }
 
-    .col.offsetRight25
+    .exoCol.offsetRight25
     {
         margin-right: 25%;
     }
 
-    .col.offsetRight30
+    .exoCol.offsetRight30
     {
         margin-right: 30%;
     }
 
-    .col.offsetRight35
+    .exoCol.offsetRight35
     {
         margin-right: 35%;
     }
 
-    .col.offsetRight40
+    .exoCol.offsetRight40
     {
         margin-right: 40%;
     }
 
-    .col.offsetRight45
+    .exoCol.offsetRight45
     {
         margin-right: 45%;
     }
 
-    .col.offsetRight50
+    .exoCol.offsetRight50
     {
         margin-right: 50%;
     }
 
-    .col.offsetRight55
+    .exoCol.offsetRight55
     {
         margin-right: 55%;
     }
 
-    .col.offsetRight60
+    .exoCol.offsetRight60
     {
         margin-right: 60%;
     }
 
-    .col.offsetRight65
+    .exoCol.offsetRight65
     {
         margin-right: 65%;
     }
 
-    .col.offsetRight70
+    .exoCol.offsetRight70
     {
         margin-right: 70%;
     }
 
-    .col.offsetRight75
+    .exoCol.offsetRight75
     {
         margin-right: 75%;
     }
 
-    .col.offsetRight80
+    .exoCol.offsetRight80
     {
         margin-right: 80%;
     }
 
-    .col.offsetRight85
+    .exoCol.offsetRight85
     {
         margin-right: 85%;
     }
 
-    .col.offsetRight90
+    .exoCol.offsetRight90
     {
         margin-right: 90%;
     }
 
-    .col.offsetRight95
+    .exoCol.offsetRight95
     {
         margin-right: 95%;
     }

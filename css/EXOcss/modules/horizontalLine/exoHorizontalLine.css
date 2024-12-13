@@ -10,11 +10,12 @@
  *
  * @package EXOcss/horizontalLine
  */
+
 hr
 {
     background-color: #000000;
     border: none;
     height: 1px;
-    margin: 2rem 0;
+    margin: 2em 0;
     min-width: 100%;
 }

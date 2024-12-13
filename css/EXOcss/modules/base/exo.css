@@ -1,0 +1,87 @@
+/**
+ * EXOcss core file (beta)
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss
+ */
+
+@media screen and (prefers-reduced-motion:reduce)
+{
+    *
+    {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    overflow-x: hidden;
+}
+
+/* WIDTH */
+.exoWidthFull
+{
+    width: 100%;
+}
+
+.exoWidthFullMax
+{
+    max-width: 100%;
+}
+
+/* FLOAT */
+.exoFloatRight
+{
+    float: right;
+}
+
+.exoFloatLeft
+{
+    float: left;
+}
+
+.exoRow:after,
+.exoClearBoth,
+.exoClearfix
+{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* COL & ROW */
+.exoCol
+{
+    float: left;
+    width: 100%;
+}
+
+.exoColr
+{
+    float: right;
+    width: 100%;
+}
+
+.exoRow
+{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 1em;
+    position: relative;
+    width: 100%;
+}

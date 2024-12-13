@@ -1,0 +1,47 @@
+/**
+ * EXOcss basic styles
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss/base
+ */
+
+:root
+{
+    --borderColor: #ccc;
+}
+
+.border0
+{
+    border: 0 !important
+}
+
+.border
+{
+    border: 1px solid var(--borderColor) !important
+}
+
+.borderBottom
+{
+    border-bottom: 1px solid var(--borderColor) !important
+}
+
+.borderLeft
+{
+    border-left: 1px solid var(--borderColor) !important
+}
+
+.borderRight
+{
+    border-right: 1px solid var(--borderColor) !important
+}
+
+.borderTop
+{
+    border-top: 1px solid var(--borderColor) !important
+}
