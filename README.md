@@ -65,16 +65,24 @@ html:
 + modules are optional.
 + custom styles are optional.
 ~~~html
-    <!-- NORMALIZE -->
-    <link href="css/otherCSS/normalize.min.css" rel="stylesheet">
-    <!-- EXOcss CORE -->
-    <link href="css/EXOcss/exo.css" rel="stylesheet">
-    <!-- EXOcss MODULES -->
-    <link href="css/EXOcss/modules/base/exoBase.css" rel="stylesheet">
-    <link href="css/EXOcss/modules/heading/exoHeading.css" rel="stylesheet">
-    <link href="css/EXOcss/modules/typography/exoTypography.css" rel="stylesheet">
-    <!-- CUSTOM STYLES -->
-    <link href="css/EXOcss/custom.css" rel="stylesheet">
+<!-- MOBILE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- EXOcss NORMALIZE -->
+<link href="css/otherCSS/normalize.min.css" rel="stylesheet">
+
+<!-- EXOcss CORE -->
+<link href="css/EXOcss/modules/base/exo.css" rel="stylesheet">
+
+<!-- EXOcss MODULES -->
+<link href="css/EXOcss/modules/base/exoFloatPercent.css" rel="stylesheet">
+<link href="css/EXOcss/modules/header/exoHeader.css" rel="stylesheet">
+<link href="css/EXOcss/modules/heading/exoHeading.css" rel="stylesheet">
+<link href="css/EXOcss/modules/horizontalLine/exoHorizontalLine.css" rel="stylesheet">
+<link href="css/EXOcss/modules/typography/exoTypography.css" rel="stylesheet">
+
+<!-- EXOcss CUSTOM STYLES -->
+<link href="css/EXOcss/custom.css" rel="stylesheet">
 ~~~
 
 ## documentation

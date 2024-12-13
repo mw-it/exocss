@@ -1,0 +1,91 @@
+/**
+ * EXOcss basic styles
+ *
+ * @author Walid Moussa https://walid-moussa.de
+ * @copyright (c) Walid Moussa https://walid-moussa.de
+ * @license https://github.com/mw-it/exocss/blob/main/LICENSE.txt
+ *
+ * @link https://exocss.org
+ * @link https://github.com/mw-it/exocss Github
+ *
+ * @package EXOcss/base
+ */
+
+.exoCol1,
+.exoCol2,
+.exoCol3,
+.exoCol4,
+.exoCol5,
+.exoCol6,
+.exoCol7,
+.exoCol8,
+.exoCol9,
+.exoCol10,
+.exoCol11,
+.exoCol12
+{
+    width: 100%;
+}
+
+@media (min-width:601px)
+{
+    .exoCol1
+    {
+        width: 8.33333%;
+    }
+
+    .exoCol2
+    {
+        width: 16.66666%;
+    }
+
+    .exoCol3
+    {
+        width: 24.99999%;
+    }
+
+    .exoCol4
+    {
+        width: 33.33333%;
+    }
+
+    .exoCol5
+    {
+        width: 41.66666%;
+    }
+
+    .exoCol6
+    {
+        width: 49.99999%;
+    }
+
+    .exoCol7
+    {
+        width: 58.33333%;
+    }
+
+    .exoCol8
+    {
+        width: 66.66666%;
+    }
+
+    .exoCol9
+    {
+        width: 74.99999%;
+    }
+
+    .exoCol10
+    {
+        width: 83.33333%;
+    }
+
+    .exoCol11
+    {
+        width: 91.66666%;
+    }
+
+    .exoCol12
+    {
+        width: 100%;
+    }
+}
